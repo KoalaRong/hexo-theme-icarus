@@ -39,6 +39,9 @@
         },
         {
             "$ref": "/comment/twikoo.json"
+        },
+        {
+            "$ref": "/comment/gicus.json"
         }
     ]
 }
