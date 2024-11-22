@@ -44,10 +44,10 @@ class Footer extends Component {
                         {copyright ? <p class="is-size-7" dangerouslySetInnerHTML={{ __html: copyright }}></p> : null}
                     </div>
                     <div class="level-end">
-                         <div align="center">
+                        <div align="center">
                             <p class="is-size-7">
-                                Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>&nbsp;&&nbsp;
-                                <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a>
+                            Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>&nbsp;&&nbsp;
+                            <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a>
                             </p>
                         </div>
                         {Object.keys(links).length ? <div class="field has-addons">
